@@ -1,27 +1,133 @@
-img {
- display: block;
- width:300px;
- margin:20px;
+body{
+  background:black;
 }
-h1{
- color: maroon; 
- font-size:55px;
+button{
+  font-size:1em;
+  background:grey;
 }
-h2{
- color: aqua; 
- font-size: 30px;
+div .header{
+  text-align:left;
 }
-p{
- font-size:25px;          color:snow;
+.bio{
+  position:absolute;
+  color:white;
+  max-width:50%;
+  left:2em;
+  top:7em;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size:.9em;
 }
-ol{
- font-size:25px; 
- color:snow;
+.backgroundHeader {
+  max-width:100%;
+  position:relative;
+  
+}
+.socialMedia{
+  max-width:10%;
+  position:relative;
+  bottom:90px;
+}
+#facebookLogo{
+  left:7%;
+}
+#twitterLogo{
+  left:2%;
+}
+#linkedLogo{
+  left:16%;
+  border-radius:15%;
+  border:0px;
+  bottom:93px;
+}
+#instagramLogo{
+  left:20%;
+}
+#profileImage{
+  max-width:30%;
+  border-radius:10%;
+  border:solid black 3px;
+  position:relative;
+  left:12%;
+  bottom:50px;
+}
+div .favoriteMovies{
+  position:relative;
+}
+#movieReel{
+  max-width:100%;
+  position:absolute;
+  display:block;
+}
+#movieHeading{
+  color:white;
+  position:relative;
+  background:grey;
+  display:block;
+  padding:.1em;
+  font-size:1.6em;
+  text-align:center;
+  top:-1em;
+  
+}
+.movies{
+  max-width:20%;
+  padding:1.8%;
+  position:relative;
+  top:-30px;
+}
+#mazeRunner{
+  position:relative;
+  max-width:100%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  padding-top:40px;
+}
+
+#bookTitle{
+  margin-left:5%;
+  margin-right:auto;
+  color:white;
+  max-width:60%;
+  font-size:1.6em;
+}
+#bookInfo{
+  color:white;
+  font-size:1em;
+  padding:5%;
 }
 a{
- font-size:25px; 
- color:snow;
+  text-decoration:none;
 }
-body{
- background-color:slategrey;
+@media (min-width:600px){
+    .bio{
+      position:absolute;
+      color:white;
+      max-width:50%;
+      left:3em;
+      top:7em;
+      font-family: 'Fira Sans Condensed', sans-serif;
+      font-size:1.6em;
+  }
+  #profileImage{
+    left:-15%;
+  }
+  #twitterLogo{
+    left:40%;
+  }
+  #facebookLogo{
+    left:43%;
+  }
+  #bookTitle{
+    position:relative;
+    top:-400px;
+    margin-left:auto;
+  }
+  #bookInfo{
+    position:relative;
+    top:-400px;
+    margin-right:auto;
+    margin-left:auto;
+    max-width:40%
+  }
 }
